@@ -1,7 +1,17 @@
 # first-GIT
 
-This repository now contains a product-ready design and implementation blueprint for the JOOLA Teams Tournament Details page experience.
+A browser-based to-do app built with vanilla HTML, CSS, and JavaScript.
 
-- Spec document: `TOURNAMENT_DETAILS_PAGE_SPEC.md`
-- Focus tabs: `Format` and `Ratings & Seeding`
-- Stack: Next.js (App Router), Tailwind CSS, TypeScript, NestJS, Prisma/PostgreSQL
+## Features
+- Add tasks
+- Mark tasks as complete/incomplete
+- Filter by all, active, or completed tasks
+- Edit a task by double-clicking it
+- Delete individual tasks
+- Clear all completed tasks
+- Persistent storage via `localStorage`
+
+## Run locally
+1. Open `index.html` directly in your browser.
+2. Or run a static server in this folder (for example: `python3 -m http.server 8000`).
+3. Visit `http://localhost:8000`.
